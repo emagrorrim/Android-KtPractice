@@ -1,6 +1,5 @@
-package com.example.xinguo.kttest.Network
+package com.example.xinguo.kttest.network
 
-import android.util.Log
 import okhttp3.*
 import java.io.IOException
 

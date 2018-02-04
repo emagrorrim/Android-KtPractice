@@ -1,4 +1,4 @@
-package com.example.xinguo.kttest.Network
+package com.example.xinguo.kttest.network
 
 interface NetworkClient {
   fun get(url: String, completion: (String) -> Unit)

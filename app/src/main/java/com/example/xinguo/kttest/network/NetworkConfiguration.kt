@@ -1,4 +1,4 @@
-package com.example.xinguo.kttest.Network
+package com.example.xinguo.kttest.network
 
 class NetworkConfiguration(
     val host: String?,
