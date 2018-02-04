@@ -7,13 +7,14 @@
   android:orientation="vertical"
   tools:context="com.example.xinguo.kttest.LandingPage.LandingActivity">
 
-    <SearchView
-      android:id="@+id/landing_search_view"
-      android:layout_width="match_parent"
-      android:layout_height="wrap_content" />
+  <SearchView
+    android:id="@+id/landing_search_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:queryHint="type something here!" />
 
-    <ListView
-      android:layout_width="match_parent"
-      android:layout_height="match_parent" />
+  <ListView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />
 
 </android.widget.LinearLayout>

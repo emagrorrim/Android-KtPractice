@@ -1,8 +1,6 @@
 package com.example.xinguo.kttest.LandingPage
 
-/**
- * Created by xinguo on 04/02/2018.
- */
-class LandingActivityPresenter {
-
+class LandingActivityPresenter(_view: LandingActivity, _interactor: LandingActivityInteractor) {
+  private val view: LandingActivity = _view
+  private val interactor: LandingActivityInteractor = _interactor
 }
